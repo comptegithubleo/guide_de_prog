@@ -26,4 +26,4 @@ int main() {
     return 0;
 }
 ```
-Plusieurs éléments sont à relever. Premièrement, la fonction `fonction_une` n'est pas **dans** la fonction **main**. 
+Plusieurs éléments sont à relever. Premièrement, la fonction `fonction_une` n'est pas **dans** la fonction **main**.
