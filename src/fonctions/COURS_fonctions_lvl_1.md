@@ -26,9 +26,45 @@ int rouler() {
 	return 0;
 }
 ```
-Cette fonction marche parfaitement ! Elle ne fait rien de spécial, puisque si on l'appelle, elle renvoie 0, c'est à dire "aucun problème" !
+Cette fonction marche parfaitement ! Elle ne fait rien de spécial, puisque si on l'appelle, elle renvoie 0, c'est à dire "aucun problème".
 
+> [!IMPORTANT]
+> On appelle la façon d'écrire une fonction sa **signature**.\
+> On parlera dans un autre niveau des **paramètres** d'une fonction et de ce qu'elle **retourne**.
 
+## Appel d'une fonction
+Maintenant qu'on a déclaré une fonction, on va l'implémenter dans le code et l'appeler depuis la fonction **main**.
 
-> [!TIP]
-> Optional information to help a user be more successful.
+```c
+#include <stdio.h>
+
+int rouler() {
+	return 0;
+}
+
+int main() {
+	rouler();
+    return 0;
+}
+
+```
+On peut déjà relever plusieurs choses :
+- La fonction **rouler** est déclarée **en dehors du corps de la fonction main**. Ca veut dire quoi ? Les fonctions sont délimitées par leurs corps, c'est à dire les accolades.
+- Cette nouvelle fonction retourne 0, comme la fonction main, pour nous dire que tout s'est bien déroulé.
+- On **appelle** la fonction **rouler** depuis la fonction main, avec une syntaxe très courante : `nom_de_la_fonction()`. Ces parenthèses sont souvent la clé pour deviner si on appelle une fonction, on autre chose !
+
+> [!IMPORTANT]
+> Parfois, les appels de fonctions ont une syntaxe différente, rappelez-vous bien de séparer concept et syntaxe !
+
+## Exécution
+Que va-t-il se passer lors de l'exécution ?\
+Là, il va falloir s'accrocher un peu mais fait confiance. Inspire, expire, inspire, inspire, inspire ...\
+J'ai déjà dit plusieurs fois que l'exécution est séquentielle, est c'est toujours vrai, mais cette fois-ci il va falloir discerner **déclaration** (ou **définition**, **initialisation**) d'une fonction et **appel** d'une fonction. Pas de panique en réalité c'est plutôt intuitif avec les bons exemples.
+
+Replongeons dans les profondeurs du code précédent :
+```c
+int rouler() {
+	return 0;
+}
+```
+Ici, ma fonction est **définie**, c'est à dire que j'ai modelé sa forme, sa structure, j'ai dit "le chef d'orchestre **rouler** existe, et fera ça et ça, puis retournera 0 !"
