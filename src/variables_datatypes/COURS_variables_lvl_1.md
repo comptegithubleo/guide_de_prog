@@ -3,14 +3,14 @@
 ## Concept
 Une variable en programmation exprime une boîte dans laquelle on range quelque chose.\
 Par exemple, `a = 1` affecte la valeur 1 à la variable **a**, on range 1 dans la boîte nommée **a**.\
-En [[Pseudo-code]], on peut tout à fait écrire `a = 0.3` ou `a = Bonjour`, c'est à dire que la boîte peut prendre n'importe quelle valeur.\
+En [[pseudo-code]], on peut tout à fait écrire `a = 0.3` ou `a = Bonjour`, c'est à dire que la boîte peut prendre n'importe quelle valeur.\
 On peut utiliser plusieurs termes pour décrire ça, on dit qu'on **affecte** une valeur à une boîte, qu'on **déclare** une variable, ou bien qu'on **l'initialise**.
 
 ## Type de la variable
-Certains [[Langage de programmation]] ont une syntaxe et des **exigences** différentes.\
+Certains [[langages_de_programmation]] ont une syntaxe et des **exigences** différentes.\
 Comme parfois en maths, certains langages vont vous demander de ne pas additionner des pommes avec des bananes.\
-Pour ces langages **moins permissifs**, ou parfois **[[Bas niveau]]**, plutôt de spécifier le types des variables que l'on manipule.\
-**ATTENTION**, certains langages incluent certains types et d'autres non ! Cela dépend de leur flexibilité et s'ils sont orientés pour être accessibles ([[Haut niveau]]) ou pas ([[Bas niveau]]).
+Pour ces langages **moins permissifs**, ou parfois **[[bas_niveau]]**, plutôt de spécifier le types des variables que l'on manipule.\
+**ATTENTION**, certains langages incluent certains types et d'autres non ! Cela dépend de leur flexibilité et s'ils sont orientés pour être accessibles ([[haut_niveau]]) ou pas ([[bas_niveau]]).
 
 *Mais qu'est ce qu'un type ?*
 - "Bonjour" est un mot, "C'est le meilleur cours de programmation !" est une phrase, et 1 est un nombre. Un type en langage français, c'est ça.

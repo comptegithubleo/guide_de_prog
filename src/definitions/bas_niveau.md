@@ -1,3 +1,5 @@
+# Ok
+---
 Les concepts dits de **bas niveau** sont une façon d'exprimer une **plus forte granularité sur le contrôle qu'on peut avoir**. A l'inverse on parle de concepts de **haut niveau**.
 Ce terme n'est pas clairement définit, mais évoque un principe de hiérarchie dans le fonctionnement d'un objet.
 Par exemple, savoir conduire une voiture est un concept de haut niveau. Il est fondé sur d'autres concepts plus bas niveau comme la boite de vitesse, les essieux, ou bien les logiciels ordinateurs de la voiture.
@@ -8,4 +10,4 @@ Par exemple, savoir conduire une voiture est un concept de haut niveau. Il est f
 Un concept dit "bas niveau" fait communément référence à des concepts qui sont quasi-universels à toute les machines.
 Là ou le fond d'écran ou le thème d'un ordinateur change pour beaucoup d'utilisateur, la manière qu'à un processeur pour communiquer avec d'autres composants peut être la même pour la plupart des machines.
 
-On parle souvent de l'[assembleur](https://en.wikipedia.org/wiki/Assembly_language) comme étant la référence des [[Langage de programmation]] de bas niveau.
+On parle souvent de l'[assembleur](https://en.wikipedia.org/wiki/Assembly_language) comme étant la référence des [[langages_de_programmation]] de bas niveau.

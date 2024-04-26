@@ -14,6 +14,6 @@ N'oubliez pas qu'au début, c'est normal d'être perdu dans les explications et 
  Bien que le cours soit fragmenté sans réelle structure, il est recommandé de suivre l'ordre suivant, et de compléter tous les Niveaux 1. Libre à vous d'apprendre autrement !
  - [Programmation informatique](./COURS_programmation.md)
  - [Préparer l'environnement de code](./GUIDE_setup.md)
- - [Les variables et les types de données - Niveau 1](./variables_datatypes/COURS_variables_lvl_1.md)
- - [Les opérateurs - Niveau 1](./operateurs/COURS_operateurs_lvl_1.md)
- - [Les fonctions - Niveau 1](./fonctions/COURS_fonctions_lvl_1.md)
+ - [Les variables et les types de données - Niveau 1](../variables_datatypes/COURS_variables_lvl_1.md)
+ - [Les opérateurs - Niveau 1](../operateurs/COURS_operateurs_lvl_1.md)
+ - [Les fonctions - Niveau 1](../fonctions/COURS_fonctions_lvl_1.md)
