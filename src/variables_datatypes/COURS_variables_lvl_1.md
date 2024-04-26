@@ -1,22 +1,21 @@
-
-# Niveau 1
+# Variables - Base
 ---
 ## Concept
-Une variable en programmation exprime une boîte dans laquelle on range quelque chose.
-Par exemple, `a = 1` affecte la valeur 1 à la variable **a**, on range 1 dans la boîte nommée **a**.
-En [[Pseudo-code]], on peut tout à fait écrire `a = 0.3` ou `a = Bonjour`, c'est à dire que la boîte peut prendre n'importe quelle valeur.
+Une variable en programmation exprime une boîte dans laquelle on range quelque chose.\
+Par exemple, `a = 1` affecte la valeur 1 à la variable **a**, on range 1 dans la boîte nommée **a**.\
+En [[Pseudo-code]], on peut tout à fait écrire `a = 0.3` ou `a = Bonjour`, c'est à dire que la boîte peut prendre n'importe quelle valeur.\
 On peut utiliser plusieurs termes pour décrire ça, on dit qu'on **affecte** une valeur à une boîte, qu'on **déclare** une variable, ou bien qu'on **l'initialise**.
 
 ## Type de la variable
-Certains [[Langage de programmation]] ont une syntaxe et des **exigences** différentes.
-Comme parfois en maths, certains langages vont vous demander de ne pas additionner des pommes avec des bananes.
-Pour ces langages **moins permissifs**, ou parfois **[[Bas niveau]]**, plutôt de spécifier le types des variables que l'on manipule.
+Certains [[Langage de programmation]] ont une syntaxe et des **exigences** différentes.\
+Comme parfois en maths, certains langages vont vous demander de ne pas additionner des pommes avec des bananes.\
+Pour ces langages **moins permissifs**, ou parfois **[[Bas niveau]]**, plutôt de spécifier le types des variables que l'on manipule.\
 **ATTENTION**, certains langages incluent certains types et d'autres non ! Cela dépend de leur flexibilité et s'ils sont orientés pour être accessibles ([[Haut niveau]]) ou pas ([[Bas niveau]]).
 
 *Mais qu'est ce qu'un type ?*
 - "Bonjour" est un mot, "C'est le meilleur cours de programmation !" est une phrase, et 1 est un nombre. Un type en langage français, c'est ça.
 
-Mais qu'en est-il des ordinateurs ?
+Mais qu'en est-il des ordinateurs ?\
 Bien que les mots, les phrases, soit importants pour nous les humains, les ordinateurs ont besoin de types encore plus simples pour calculer et se souvenir de choses.
 
 Pour la plupart des langages, on reconnait des types basiques comme :
@@ -33,7 +32,6 @@ Pour la plupart des langages, on reconnait des types basiques comme :
 - Le **caractère** ou **chaîne de caractère** (parfois présent, absent en C par exemple)
 	- *char* : signifie **caractère** pour représenter une lettre par exemple.
 		- 'a', 'b', 'c', ...
-	- *string* : signifie **phrase**, soit plusieurs caractères l'un après l'autre.
 		- "bonjour", "comment ça va ?", "ça va", "au revoir", ...
 
 ## Nom de la variable
@@ -58,7 +56,7 @@ float baobab = 0.123;
 char p_majuscule = 'p';
 int *s = (int*) malloc(100 * sizeof(int));
 ```
-Et là vous vous dites wow, j'ai tout compris ! Si c'est le cas c'est que vous avez pas lu, ou que vous êtes déjà trop fort, parce que la dernière ligne fait peur... mais elle respecte la structure !
+Et là vous vous dites wow, j'ai tout compris ! Si c'est le cas c'est que vous avez pas lu, ou que vous êtes déjà trop fort, parce que la dernière ligne fait peur... mais elle respecte la structure !\
 Effectivement la théorie semble simple, les entiers, les nombres réels, certes. Mais certains langages cachent encore des concepts plus avancés que nous verrons dans les prochains niveaux !
 ## Exercices
 > [!question]- Q1 : Citez quelques types d'une variable
@@ -77,7 +75,7 @@ Effectivement la théorie semble simple, les entiers, les nombres réels, certes
 > `int variable2 = 5;`
 > 	Comme 5 est un entier, on utilise le type *int*. Notez qu'on aurait aussi pu utiliser le type *float*, on n'aurait eu aucune **perte d'information**, ça aurait été l'équivalent de 5.00000 ...
 > `bool variable3 = 0;`
-> 	Attention ici, "False", ou "false", n'est pas reconnu en C ! Cependant dans d'autres langages, comme en Python, `a = False` est tout à fait valide. Comprennez bien le **principe**, retenez bien la **syntaxe**.
+> 	Attention ici, "False", ou "false", n'est pas reconnu en C ! Cependant dans d'autres langages, comme en Python, `a = False` est tout à fait valide. Comprennez bien le **principe**, retenez bien la **syntaxe**.\
 Q3 : Déclarez trois variables en C avec les valeurs 9.835, 5, et False respectivement, et choisissez les types les plus adéquat
 
 > [!question]- Q4 : Déclarez trois variables en Python avec les valeurs 5, 0.01 et "Bonjour" respectivement.
@@ -98,16 +96,3 @@ mouton = berger + 10;
 > Si on regarde la syntaxe, on relève plusieurs choses, le mot `mouton` à la 4eme ligne n'a pas de type ! On étudie ça dans la partie [[COURS - Opérateurs#Niveau 1]] !
 
 
-
-# Niveau 2
----
-# Types primitifs
-Maintenant que les types de base sont posés, on va parler des types **primitifs**.
-long double etc
-
-# Niveau 3
----
-Pointeurs
-
-
-# Niveau 3 ou 4 : objets
