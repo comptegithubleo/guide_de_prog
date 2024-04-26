@@ -46,7 +46,6 @@ int main() {
 	rouler();
     return 0;
 }
-
 ```
 On peut déjà relever plusieurs choses :
 - La fonction **rouler** est déclarée **en dehors du corps de la fonction main**. Ca veut dire quoi ? Les fonctions sont délimitées par leurs corps, c'est à dire les accolades.
