@@ -10,6 +10,8 @@ Les fonctions sont comme de **multiples chefs d'orchestres avec chacun leur part
 
 > Une fonction est un peu similaire, elle peut être **appelée**, et elle peut **retourner** un résultat.
 
+**ATTENTION** la syntaxe entre les différents langages change énormément ! Assimilez bien le concept.
+
 Quand on exécute la commande **gcc** on appelle la fonction **main**, qui retourne 0.\
 Souvenez-vous que 0 en C signifie **Vrai**, ou **True**. C'est jute pour s'assurer que la fonction s'est correctement exécutée sans erreur.
 
@@ -24,10 +26,9 @@ int rouler() {
 	return 0;
 }
 ```
-Plusieurs éléments sont à relever.\  
-Premièrement, la fonction `rouler` n'est pas **dans** la fonction **main**.
+Cette fonction marche parfaitement ! Elle ne fait rien de spécial, puisque si on l'appelle, elle renvoie 0, c'est à dire "aucun problème" !
+
+
 
 > [!TIP]
 > Optional information to help a user be more successful.
-
-oui
