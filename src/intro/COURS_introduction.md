@@ -8,7 +8,7 @@ Chaque section est composée de **Niveaux**. Certaines sections seront plus copi
 A chaque fin de Niveau, une partie Exercice vous attends avec des réponses rédigées pour mieux comprendre les syntaxes, concepts, etc...
 
 > [!IMPORTANT]
-> N'oubliez pas qu'au début, c'est normal d'être perdu dans les explications et de se tromper **tout le temps**.
+> N'oubliez pas qu'au début, c'est normal d'être perdu dans les explications et de se tromper **tout le temps**. C'est pareil pour tout le monde au début !
 
 Pour les syntaxes des langages, il faut juste "accepter" et retenir. Pour le reste, il faut relire et chercher d'autres sources si nécessaire.
 

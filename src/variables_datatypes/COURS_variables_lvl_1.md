@@ -5,8 +5,7 @@ Une variable en programmation exprime une boîte dans laquelle on range quelque 
 Par exemple, `a = 1` affecte la valeur 1 à la variable **a**, on range 1 dans la boîte nommée **a**.\
 En [pseudo-code](/definitions/pseudo-code.md), on peut tout à fait écrire `a = 0.3` ou `a = Bonjour`, c'est à dire que la boîte peut prendre n'importe quelle valeur.
 
-> [!IMPORTANT]
-> On peut utiliser plusieurs termes pour décrire ça, on dit qu'on **affecte** une valeur à une boîte, qu'on **déclare** une variable, ou bien qu'on **l'initialise**.
+On peut utiliser plusieurs termes pour décrire ça, on dit qu'on **affecte** une valeur à une boîte, qu'on **déclare** une variable, ou bien qu'on **l'initialise**.
 
 ## Type de la variable
 Certains [langages de programmation](/definitions/langages_de_programmation.md) ont une syntaxe et des **exigences** différentes.\

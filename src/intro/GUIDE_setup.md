@@ -1,6 +1,8 @@
+# Préparer l'environnement
+---
 Les exercices seront en C et en Python.\
-Tous les exercices proposés peuvent être fait en codant à la main sur papier, si vous aimez vous faire du mal. Sinon, je vous recommande d'installer à l'aide de ressources externes sur vos machines **gcc**, pour pouvoir compiler du C, et python, pour faire du python...\
-Il existe pléthore de tutoriels, et même des compilateurs en ligne ! https://www.onlinegdb.com/online_c_compiler
+Tous les exercices proposés peuvent être fait en codant à la main sur papier, si vous aimez vous faire du mal. Sinon, je vous recommande d'installer à l'aide de ressources externes sur vos machines des outils comme **gcc** pour pouvoir compiler du C, et python, pour faire du python...\
+Il existe pléthore de tutoriels, et même des [compilateurs en ligne](https://www.onlinegdb.com/online_c_compiler) !
 
 # Goodbye world :(
 ---
