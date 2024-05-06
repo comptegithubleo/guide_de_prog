@@ -2,13 +2,18 @@
 ---
 La programmation c'est créer des instructions, qui sont exécutées pour réaliser une tâche.\
 Tout comme une **recette de cuisine**, l'ordinateur exécute les opérations l'une après l'autre, de façon **séquentielle**.\
-La programmation est une **notion abstraite**, comme décrite plus haut, mais en pratique on la trouve dans des **langages de programmations** bien connus : C, Python, Java, SQL. Chacun de ces langages à des utilisations différentes mais aussi des avantages, inconvénients, et **syntaxes différentes**.\
-Certains langages sont **littéralement** des [recettes de cuisine](https://esolangs.org/wiki/Chef), ou parfois même [invisible](https://en.wikipedia.org/wiki/Whitespace_(programming_language)).
+La programmation est une notion abstraite, comme décrite plus haut, mais en pratique on la trouve dans des langages de programmations bien connus : C, Python, Java, SQL. Chacun de ces langages implémente à sa façon la programmation, et à ses avantages, inconvénients, et **syntaxes différentes**.\
+Certains langages sont littéralement des [recettes de cuisine](https://esolangs.org/wiki/Chef), ou parfois même [invisible](https://en.wikipedia.org/wiki/Whitespace_(programming_language)).
+
+On peut imaginer la programmation comme des recettes de cuisine :
+- Un objectif à atteindre
+- Des ingrédients à préparer
+- Un ordre d'instructions à suivre
 
 > [!IMPORTANT]
-> Un élément crucial est la **distinction entre les concepts théoriques et leur application**.
-> Il faut toujours prendre en compte qu'une notion peut être implémentée de façon **différente** d'un langage à un autre.
-> C'est comme dire "J'ai faim" en espagnol, ou avec un fort accent du sud, le concept reste le même, on a **faim**, mais la manière de parler est différente.
+> Un élément crucial est la **distinction entre les concepts théoriques et leur application**.\
+> Il faut toujours prendre en compte qu'une notion peut être implémentée de façon différente d'un langage à un autre.\
+> C'est comme dire "J'ai faim" en espagnol, ou avec un fort accent du sud, le concept reste le même, on a faim, mais la manière de parler est différente.
 
 > [!WARNING]
 > **TOUJOURS** penser au concept global, au concept général.\

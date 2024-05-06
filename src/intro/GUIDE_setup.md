@@ -30,7 +30,7 @@ int main() {
 ```
 On n'expliquera pas maintenant pourquoi ça marche, et comment.\
 Si ? Vraiment vous insistez ? Vous n'arriverez plus à dormir avant de savoir la recette magique qui fait que ce code marche ?\
-Pour vraiment tout comprendre il faudrait se pencher sur [[COURS_fonctions_lvl_1]], et [[COURS - Structure de contrôle]]... mais voilà un résumé utile pour la suite des exercices :
+Pour vraiment tout comprendre il faudrait se pencher sur [Variables et types de données - Niveau 1](/variables_datatypes/COURS_variables_lvl_1.md), et [[COURS - Structure de contrôle]]... mais voilà un résumé utile pour la suite des exercices :
 ```c
 int main() {
 	// vos instructions vont ici, entre la première accolade et le "return"

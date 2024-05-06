@@ -1,2 +1,0 @@
-# Correction Variables - Base
----

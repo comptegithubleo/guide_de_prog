@@ -10,7 +10,7 @@ On peut utiliser plusieurs termes pour décrire ça, on dit qu'on **affecte** un
 ## Type de la variable
 Certains [langages de programmation](/definitions/langages_de_programmation.md) ont une syntaxe et des **exigences** différentes.\
 Comme parfois en maths, certains langages vont vous demander de ne pas additionner des pommes avec des bananes.\
-Pour ces langages **moins permissifs**, ou parfois [bas niveau](/definitions/bas_niveau.md), plutôt de spécifier le types des variables que l'on manipule.
+Pour ces langages **moins permissifs**, ou parfois [bas niveau](/definitions/bas_niveau.md), il faudra plutôt spécifier le types des variables que l'on manipule.
 
 > [!WARNING]
 > **ATTENTION**, certains langages incluent certains types et d'autres non ! Cela dépend de leur flexibilité et s'ils sont orientés pour être accessibles ([haut niveau](/definitions/haut_niveau.md)) ou pas ([bas niveau](/definitions/bas_niveau.md)).
@@ -39,15 +39,15 @@ Pour la plupart des langages, on reconnait des types basiques comme :
 
 ## Nom de la variable
 Cette magnifique [convention de nommage des variables](https://en.wikipedia.org/wiki/Naming_convention_(programming)) est importante. En résumé :
-- Les noms de variables doivent être lisibles et clairs
+- Les noms de variables doivent être lisibles et clairs, ils doivent au maximum **décrire** leur but
 - Ne doit pas contenir d'espace
 - Contenir des lettres, des tirets, et idéalement c'est tout
-Si vous voulez lancer un débat ou même une altercation avec vos camarades de classe, pourquoi pas s'approprier un de ces style d'écriture et le revendiquer comme étant le meilleur ? Choisissez-en un avec pour example le nom de variable "taux de conversion"
-- Le **Pascal case** : `TauxDeConversion`
-- Le **Camel case** : `tauxDeConversion`
-- Le **Snake case** : `taux_de_conversion`
-- Le **Kebab case** : `taux-de-conversion`
-- Le **Reduced case** : `tdc` (ne faites jamais ça je viens de l'inventer)
+Si vous voulez lancer un débat ou même une altercation physique avec vos camarades de classe, pourquoi pas s'approprier un de ces style d'écriture et le revendiquer comme étant le meilleur ? Choisissez-en un avec pour example le nom de variable "nombre_petale_tournesol"
+- Le **Pascal case** : `NombrePetaleTournesol`
+- Le **Camel case** : `nombrePetaleTournesol`
+- Le **Snake case** : `nombre_petale_tournesol`
+- Le **Kebab case** : `nombre-petale-tournesol`
+- Le **Voyelle case** : `nOmbrE_pEtAlE_tOurnEsOl` (ne faites jamais ça c'est trop moche je viens de l'inventer)
 
 ## Code
 En C comme dans la grande majorité des langages, pour **déclarer** une variable et ainsi l'initialiser, la syntaxe est la suivante :
@@ -61,4 +61,4 @@ int *s = (int*) malloc(100 * sizeof(int));
 ```
 Et là vous vous dites wow, j'ai tout compris ! Si c'est le cas c'est que vous avez pas lu, ou que vous êtes déjà trop fort, parce que la dernière ligne fait peur... mais elle respecte la structure !\
 Effectivement la théorie semble simple, les entiers, les nombres réels, certes. Mais certains langages cachent encore des concepts plus avancés que nous verrons dans les prochains niveaux !
-## Exercices
+## [Exercices !](/variables_datatypes/EXERCICE_variables_lvl_1.md)
