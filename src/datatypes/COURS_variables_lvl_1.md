@@ -61,4 +61,4 @@ int *s = (int*) malloc(100 * sizeof(int));
 ```
 Et là vous vous dites wow, j'ai tout compris ! Si c'est le cas c'est que vous avez pas lu, ou que vous êtes déjà trop fort, parce que la dernière ligne fait peur... mais elle respecte la structure !\
 Effectivement la théorie semble simple, les entiers, les nombres réels, certes. Mais certains langages cachent encore des concepts plus avancés que nous verrons dans les prochains niveaux !
-## [Exercices !](./EXERCICE_variables_lvl_1.md)
+## [Exercices !](datatypes/EXERCICE_variables_lvl_1.md)

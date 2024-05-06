@@ -21,6 +21,6 @@ Pour toute question ou feedback sur ce projet, n'hésitez pas à me contacter su
  - [Programmation informatique](intro/COURS_programmation.md)
  - [Préparer l'environnement de code](intro/GUIDE_setup.md)
  - [Apprendre à chercher](intro/GUIDE_apprendre_a_chercher.md)
- - [Les variables et les types de données - Niveau 1](variables_datatypes/COURS_variables_lvl_1.md)
+ - [Les variables et les types de données - Niveau 1](datatypes/COURS_variables_lvl_1.md)
  - [Les opérateurs - Niveau 1](operateurs/COURS_operateurs_lvl_1.md)
  - [Les fonctions - Niveau 1](fonctions/COURS_fonctions_lvl_1.md)

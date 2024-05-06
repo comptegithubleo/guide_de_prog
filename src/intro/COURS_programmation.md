@@ -26,6 +26,6 @@ Tout comme les dizaines de [mots esquimaux pour désigner la neige](https://fr.w
 
 On dit souvent : "[a jack of all trades is master of none](https://en.wikipedia.org/wiki/Jack_of_all_trades)", "**valet de tous les métiers, maître d'aucun**". Un langage qui saurait un peut tout faire ne pourrait pas faire une tâche particulière avec brio.
 
-Pour commencer, je vous conseille d'entamer [Les variables et types de données](../variables_datatypes/COURS_variables_lvl_1.md).
+Pour commencer, je vous conseille d'entamer [Les variables et types de données](COURS_variables_lvl_1.md).
 
 
