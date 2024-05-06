@@ -1,6 +1,6 @@
 # Fonctions, déclaration et appel
 ---
-*Pré-requis :* [Variables et types de données - Niveau 1](variables_datatypes/COURS_variables_lvl_1.md)
+*Pré-requis :* [Variables et types de données - Niveau 1](../datatypes/COURS_variables_lvl_1.md)
 ## Définition
 Les fonctions sont des éléments primordiaux de la plupart des [langages de programmation](../definitions/langages_de_programmation.md), elles structurent le code quand elles sont bien gérées, le rendent modulable et surtout compréhensible et lisible.
 
@@ -77,4 +77,4 @@ Si on omet la ligne `arroser_les_plantes()` dans la fonction main, elle ne sera 
 La fonction est d'abord définie, puis elle peut être appelée ou non ! Définie, c'est juste qu'elle existe.\
 **On ne pourra en revanche jamais appeler une fonction non définie !**
 
-## [Exercices !](fonctions/EXERCICE_fonctions_lvl_1.md)
+## [Exercices !](EXERCICE_fonctions_lvl_1.md)

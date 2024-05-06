@@ -1,6 +1,6 @@
 # Opérateurs de base
 ---
-*Pré-requis :* [Variables et types de données - Niveau 1](variables_datatypes/COURS_variables_lvl_1.md)
+*Pré-requis :* [Variables et types de données - Niveau 1](../datatypes/COURS_variables_lvl_1.md)
 ## Opérateur `=`
 Calculer c'est bien. Mais sans stocker la valeur, on ne peut pas faire grand chose !\
 Souvenez-vous que l'ordinateur remplace à l'exécution les variables par leurs valeurs. Si par exemple `poulailler` à été **déclaré** et vaut 3, et `loup` lui aussi **déclaré** et vaut 4, alors :
@@ -35,4 +35,4 @@ cagette = (pissenlit + cagette) / 2
 ```
 Un peu complexe, mais on fait un calcul de maths. Souvenez-vous l'ordinateur **remplace** les variables. Pour lui la dernière ligne demande :
 `mets dans la variable cagette la valeur (2 + 1) / 2`
-## [Exercices !](operateurs/EXERCICE_operateurs_lvl_1.md)
+## [Exercices !](EXERCICE_operateurs_lvl_1.md)
