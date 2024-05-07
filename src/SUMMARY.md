@@ -26,6 +26,10 @@
 	- [Niveau 1](./fonctions/COURS_fonctions_lvl_1.md)
 		- [Exercices](./fonctions/EXERCICE_fonctions_lvl_1.md)
 
+- [Structures de contrôle](./structures_controle/COURS_structures_controle.md)
+	- [Niveau 1](./structures_controle/COURS_structures_controle_lvl_1.md)
+
+
 # Définitions
 ---
 - [Bas niveau](definitions/bas_niveau.md)
