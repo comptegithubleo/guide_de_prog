@@ -45,8 +45,8 @@ Si ma glace est à la vanille, alors je vais faire une réaction et mourir. Sino
 ```mermaid
 stateDiagram-v2
     [*] --> glaceVanille?
-    glaceVanille? --> Régaler: si glace vanille
-    glaceVanille? --> Déceder: si glace non-vanille    
+    glaceVanille? --> Déceder: True
+    glaceVanille? --> Régaler: False
 ```
 
 On peut traduire ce comportement en code C:
