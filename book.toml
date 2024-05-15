@@ -9,6 +9,10 @@ src = "src"
 [preprocessor.mermaid]
 command = "mdbook-mermaid"
 
+[preprocessor.toc]
+command = "mdbook-toc"
+renderer = ["html"]
+
 [output]
 
 [output.html]
