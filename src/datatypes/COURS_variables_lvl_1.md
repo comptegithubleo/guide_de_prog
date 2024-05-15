@@ -7,15 +7,17 @@ En [pseudo-code](/definitions/pseudo-code.md), on peut tout à fait écrire `a =
 
 On peut utiliser plusieurs termes pour décrire ça, on dit qu'on **affecte** une valeur à une boîte, qu'on **déclare** une variable, ou bien qu'on **l'initialise**.
 
+<img src="variable_boite.png" alt="drawing" width="350"/>
+
 ## Type de la variable
 Certains [langages de programmation](/definitions/langages_de_programmation.md) ont une syntaxe et des **exigences** différentes.\
 Comme parfois en maths, certains langages vont vous demander de ne pas additionner des pommes avec des bananes.\
-Pour ces langages **moins permissifs**, ou parfois [bas niveau](/definitions/bas_niveau.md), il faudra plutôt spécifier le types des variables que l'on manipule.
+Pour ces langages **moins permissifs**, ou parfois [bas niveau](/definitions/bas_niveau.md), il faudra plutôt spécifier le types des variables que l'on manipule.\
+C'est à dire que la boite peut être faite pour recevoir des bananes, mais pas des pommes !
 
-> [!WARNING]
-> **ATTENTION**, certains langages incluent certains types et d'autres non ! Cela dépend de leur flexibilité et s'ils sont orientés pour être accessibles ([haut niveau](/definitions/haut_niveau.md)) ou pas ([bas niveau](/definitions/bas_niveau.md)).
+<img src="types_boite.png" alt="drawing" width="350"/>
 
-*Mais qu'est ce qu'un type ?*\
+*Mais qu'est ce qu'un type concrètement ?*\
 "Bonjour" est un mot, "C'est le meilleur cours de programmation !" est une phrase, et 1 est un nombre. Un type en langage français, c'est ça.
 
 *Mais qu'en est-il des ordinateurs ?*\
@@ -37,6 +39,11 @@ Pour la plupart des langages, on reconnait des types basiques comme :
 		- 'a', 'b', 'c', ...
 		- "bonjour", "comment ça va ?", "ça va", "au revoir", ...
 
+> [!WARNING]
+> **ATTENTION**, certains langages incluent certains types et d'autres non ! Cela dépend de leur flexibilité et s'ils sont orientés pour être accessibles ([haut niveau](/definitions/haut_niveau.md)) ou pas ([bas niveau](/definitions/bas_niveau.md)).
+
+<img src="types_boite_2.png" alt="drawing" width="350"/>
+
 ## Nom de la variable
 Cette magnifique [convention de nommage des variables](https://en.wikipedia.org/wiki/Naming_convention_(programming)) est importante. En résumé :
 - Les noms de variables doivent être lisibles et clairs, ils doivent au maximum **décrire** leur but
@@ -49,8 +56,28 @@ Si vous voulez lancer un débat ou même une altercation physique avec vos camar
 - Le **Kebab case** : `nombre-petale-tournesol`
 - Le **Voyelle case** : `nOmbrE_pEtAlE_tOurnEsOl` (ne faites jamais ça c'est trop moche je viens de l'inventer)
 
+## To be or not to be
+En C comme dans la grande majorité des langages, les variables doivent **exister** pour être manipulées. Ce concept revient dans d'autres notions alors accrochez-vous !
+
+**Initialiser**, c'est rendre réel. Créons une variable `chenille`, sans y mettre de valeur explicite.\
+On demande: **Ordinateur, créée une boîte qui s'appelle chenille**
+```c
+int chenille;
+```
+
+**Affecter**, c'est l'action de donner une valeur à une variable à condition qu'elle existe !\
+On demande: **Ordinateur, mets 5 dans la boite chenille et 1 dans la boite mammouth**
+```c
+chenille = 5; // chenille existe déjà on l'a créé précédemment !\
+mammouth = 1; // erreur, car 'mammouth' n'a pas été initialisée avant !
+```
+
+> S'il y a un type, je **déclare**, sinon j'**accède**.\
+> Définir, initialiser ou déclarer, j'utilise le type.\
+> Accéder, lire, modifier, je n'utilise pas le type.
+
 ## Code
-En C comme dans la grande majorité des langages, pour **déclarer** une variable et ainsi l'initialiser, la syntaxe est la suivante :
+ La syntaxe pour l'affectation est la suivante :
 `type_de_la_variable nom_de_variable = valeur_de_la_variable`
 C'est tout moche, mais quand on remplace les termes, en jouant avec les définitions des types vus précédemment, on peut écrire du code valide :
 ```c

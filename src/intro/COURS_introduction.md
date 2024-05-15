@@ -9,6 +9,9 @@ A chaque fin de Niveau, une partie Exercice vous attends avec des réponses réd
 > [!IMPORTANT]
 > N'oubliez pas qu'au début, c'est normal d'être perdu dans les explications et de se tromper **tout le temps**. C'est pareil pour tout le monde au début et même plus tard !
 
+
+<img src="intro.png" alt="drawing" width="200"/>
+
 Tout au long du parcours, il est fortement conseillé de vous former sur plusieurs axes :
 - [Apprendre à chercher](intro/GUIDE_apprendre_a_chercher.md) les informations, le plus tôt possible, pour devenir autonome et performant
 - Apprendre l'anglais pour débloquer de nouvelles ressources et partager vos idées dans une communauté mondiale. Savoir également chercher en anglais est un outil très puissant. Bien que ce cours restera en français pour des soucis d'accessibilité, l'anglais est requis pour atteindre certains niveaux en informatique, et dans la vie !

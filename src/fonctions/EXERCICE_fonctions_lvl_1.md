@@ -94,4 +94,6 @@ La fonction `main` appelle `tribord`.
 
 La fonction `babord` s'exécute, et affiche `a gauche!`, puis elle rend le contrôle de l'exécution à la fonction `tribord` qui affichera `a droite!`, qui elle-même rend le contrôle de l'exécution à la fonction `main`, qui s'arrête ensuite.
 
+<img src="fonction_imbriquee.png" alt="drawing" width="350"/>
+
 </details>
