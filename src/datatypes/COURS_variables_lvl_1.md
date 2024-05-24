@@ -1,9 +1,13 @@
-# Variables - Base
+# Niveau 1 - Variables de base
 ---
-## Concept
+
+# Sommaire
+<!-- toc -->
+
+---
 Une variable en programmation exprime une boîte dans laquelle on range quelque chose.\
-Par exemple, `a = 1` affecte la valeur 1 à la variable **a**, on range 1 dans la boîte nommée **a**.\
-En [pseudo-code](/definitions/pseudo-code.md), on peut tout à fait écrire `a = 0.3` ou `a = Bonjour`, c'est à dire que la boîte peut prendre n'importe quelle valeur.
+Par exemple, `a = 1` va affecter la valeur 1 à la variable **a**. C'est à dire qu'on range 1 dans la boîte nommée **a**.\
+En [pseudo-code](/definitions/pseudo-code.md), on peut tout à fait écrire `a = 0.3` ou `a = "Bonjour"`, c'est à dire que la boîte peut prendre n'importe quelle valeur.
 
 On peut utiliser plusieurs termes pour décrire ça, on dit qu'on **affecte** une valeur à une boîte, qu'on **déclare** une variable, ou bien qu'on **l'initialise**.
 
@@ -72,7 +76,7 @@ chenille = 5; // chenille existe déjà on l'a créé précédemment !\
 mammouth = 1; // erreur, car 'mammouth' n'a pas été initialisée avant !
 ```
 
-> S'il y a un type, je **déclare**, sinon j'**accède**.\
+> S'il y a un type qui précède le nom, je **déclare**, sinon j'**accède**.\
 > Définir, initialiser ou déclarer, j'utilise le type.\
 > Accéder, lire, modifier, je n'utilise pas le type.
 

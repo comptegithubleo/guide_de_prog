@@ -5,8 +5,8 @@ C'est des personnes brillantes qui font des programmes tout simples, mais de la 
 Bizarre d'en parler dans la partie "Bonne pratique", pourtant ça suit un raisonnement que j'aime bien et qui s'applique à beaucoup de choses.
 
 >[!IMPORTANT]
->Pour devenir maître, il faut apprendre les codes.
->Pour surpasser les maîtres, il faut casser les codes.
+> Pour devenir maître, il faut apprendre les codes.
+> Pour surpasser les maîtres, il faut casser les codes.
 
 Ce concours est la matérialisation (digitale...) de ce concept.\
 Pour bien commencer, et bien progresser, il faut apprendre les codes, rendre son travail accessible, et rester dans le partage et l'entraide. C'est pour cela que les bonnes pratiques sont essentielles, elles donnent un cadre et nous rend rigoureux !

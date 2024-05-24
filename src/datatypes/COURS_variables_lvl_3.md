@@ -1,6 +1,3 @@
-# Variables - Objets et pointeurs ?
+# Niveau 3 - Objets(struct) et pointeurs ?
 ---
-Pointeurs
-
-
-# Niveau 3 ou 4 : objets
+Pointeur

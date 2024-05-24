@@ -1,3 +1,3 @@
-# Opérateurs bitwise
+# Niveau 5 - Opérateurs bitwise
 ---
 `&`, `|`, `^`, `~`, `<<`,

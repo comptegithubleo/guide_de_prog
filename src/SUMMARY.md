@@ -9,25 +9,30 @@
 # Cours
 ---
 - [Variables et types de données](./datatypes/COURS_variables.md)
-	- [Niveau 1](./datatypes/COURS_variables_lvl_1.md)
+	- [Variables de base](./datatypes/COURS_variables_lvl_1.md)
 		- [Exercices](./datatypes/EXERCICE_variables_lvl_1.md)
-	- [Niveau 2](./datatypes/COURS_variables_lvl_2.md)
-	- [Niveau 3](./datatypes/COURS_variables_lvl_3.md)
+	- [Types primitifs et tableaux?](./datatypes/COURS_variables_lvl_2.md)
+	- [Objets et pointeurs?](./datatypes/COURS_variables_lvl_3.md)
 
 - [Les opérateurs](./operateurs/COURS_operateurs.md)
-	- [Niveau 1](./operateurs/COURS_operateurs_lvl_1.md)
+	- [Opérateurs de base](./operateurs/COURS_operateurs_lvl_1.md)
 		- [Exercices](./operateurs/EXERCICE_operateurs_lvl_1.md)
-	- [Niveau 2](./operateurs/COURS_operateurs_lvl_2.md)
-	- [Niveau 3](./operateurs/COURS_operateurs_lvl_3.md)
+	- [Opérateurs relationnels](./operateurs/COURS_operateurs_lvl_2.md)
+	- [Opérateurs logiques / incrémentaux](./operateurs/COURS_operateurs_lvl_3.md)
 	- [Niveau 4](./operateurs/COURS_operateurs_lvl_4.md)
 	- [Niveau 5](./operateurs/COURS_operateurs_lvl_5.md)
 
 - [Les fonctions](./fonctions/COURS_fonctions.md)
-	- [Niveau 1](./fonctions/COURS_fonctions_lvl_1.md)
+	- [Déclaration et appels](./fonctions/COURS_fonctions_lvl_1.md)
 		- [Exercices](./fonctions/EXERCICE_fonctions_lvl_1.md)
+	- [Paramètres et types de retour](./fonctions/COURS_fonctions_lvl_2.md)
 
 - [Structures de contrôle](./structures_controle/COURS_structures_controle.md)
-	- [Niveau 1](./structures_controle/COURS_structures_controle_lvl_1.md)
+	- [Blocs et portée](./structures_controle/COURS_structures_controle_lvl_1.md)
+		- [Exercices](./structures_controle/EXERCICE_structures_controle_lvl_1.md)
+	- [Conditions](./structures_controle/COURS_structures_controle_lvl_2.md)
+		- [Exercices](./structures_controle/EXERCICE_structures_controle_lvl_2.md)
+	- [Boucles itératives](./structures_controle/COURS_structures_controle_lvl_3.md)
 
 
 # Définitions

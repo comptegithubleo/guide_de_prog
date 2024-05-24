@@ -1,11 +1,13 @@
-# Fonctions, déclaration et appel
+# Niveau 1 - Déclaration et appel
 ---
-*Pré-requis :* [Variables et types de données - Niveau 1](../datatypes/COURS_variables_lvl_1.md)
+*Pré-requis :*
+- [Variables et types de données - Niveau 1](../datatypes/COURS_variables_lvl_1.md)
+- [Structures de contrôle - Niveau 1](../structures_controle/COURS_structures_controle_lvl_1.md)
 
 # Sommaire
 <!-- toc -->
 
-## Définition
+---
 Les fonctions sont des éléments primordiaux de la plupart des [langages de programmation](../definitions/langages_de_programmation.md), elles structurent le code quand elles sont bien gérées, le rendent modulable et surtout compréhensible et lisible.
 
 *A quoi sert-elle et comment elle marche ?*\
@@ -26,7 +28,7 @@ C'est juste pour s'assurer que la fonction s'est correctement exécutée sans er
 
 Puisqu'on en a déjà manipulé sans s'en rendre compte, créons-en d'autres et apprenons leur comportement !\
 Pour la suite des consignes souvenez-vous aussi que l'exécution est séquentielle, ligne par ligne. Ca deviendra important.
-## Déclaration d'une fonction
+## Déclaration de ~~revenus~~ fonctions
 Souvenez-vous de la structure de la fonction **main** et servons-nous en pour construire la fonction `arroser_les_plantes`:
 ``` c
 int arroser_les_plantes() {
@@ -39,9 +41,10 @@ On appelle la façon d'écrire une fonction sa **signature**.\
 Notre fonction à :
 - Un **type de retour**, ici, *int*
 - Un **nom**, ici *arroser_les_plantes*
-- Des **paramètres**, ici les parenthèses vides, c'est à dire aucun paramètre
+- Des **paramètres**, ici les parenthèses vides, c'est à dire aucun paramètre. Pour l'instant on ne s'y attarde pas.
 
-On parlera dans un autre niveau des **paramètres** d'une fonction et de son **type de retour**.
+> [!IMPORTANT]
+> Vous avez remarqué les accolades ? Souvenez vous ! C'est le **corps** de la fonction, le **bloc**, sa **portée.**
 
 ## Appel d'une fonction
 Maintenant qu'on a déclaré une fonction, on va l'implémenter dans le code et l'appeler depuis la fonction **main**.
@@ -57,7 +60,7 @@ int main() {
 }
 ```
 On peut déjà relever plusieurs choses :
-- La fonction **arroser_les_plantes** est déclarée **en dehors du corps de la fonction main**. Ca veut dire quoi ? Etant donné que les fonctions sont délimitées par leurs corps, c'est à dire les accolades, la fonction **arroser_les_plantes** est placée en dehors de celles-ci.
+- La fonction **arroser_les_plantes** est déclarée **en dehors du corps de la fonction main**. Rappelez vous des blocs et de la portée du code.
 - Cette nouvelle fonction retourne 0, comme la fonction main, pour nous dire que tout s'est bien déroulé.
 - On **appelle** la fonction **arroser_les_plantes** depuis la fonction main, avec une syntaxe très courante : `nom_de_la_fonction()`. Ces parenthèses sont souvent la clé pour deviner si on appelle une fonction ! On verra plus tard que ces parenthèses sont synonymes de **paramètres** d'une fonction.
 
@@ -65,8 +68,9 @@ On peut déjà relever plusieurs choses :
 > Parfois, les appels de fonctions ont une syntaxe différente, rappelez-vous bien de séparer concept et syntaxe !
 
 ## Exécution
-Que va-t-il se passer lors de l'exécution ?\
-Là, il va falloir s'accrocher un peu mais faites moi confiance. Inspire, expire, inspire, inspire, inspire ...\
+Que va-t-il se passer lors de l'exécution ? On demande à la fonction ce qu'elle veut pour son dernier repas avant de passer à la chaise électrique ? Ca aurait été beaucoup plus fun comme explication, malheureusement c'est totalement hors sujet et on est partie en roue libre.
+
+On se concentre, pensons positif, pensons **recette de cuisine**. Là, il va falloir s'accrocher un peu mais faites moi confiance. Inspire, expire, inspire, inspire, inspire ...\
 J'ai déjà dit plusieurs fois que l'exécution est séquentielle, est c'est toujours vrai, mais cette fois-ci il va falloir discerner **déclaration** (ou **définition**, **initialisation**) d'une fonction et **appel** d'une fonction. Pas de panique en réalité, on l'a déjà vu avec les variables, et c'est plutôt intuitif avec les bons exemples.
 
 Replongeons dans les profondeurs du code précédent :

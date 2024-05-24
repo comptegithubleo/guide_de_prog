@@ -27,4 +27,6 @@ Pour toute question ou feedback sur ce projet, n'hésitez pas à me contacter su
  - [Les variables et les types de données - Niveau 1](../datatypes/COURS_variables_lvl_1.md)
  - [Les opérateurs - Niveau 1](../operateurs/COURS_operateurs_lvl_1.md)
  - [Les fonctions - Niveau 1](../fonctions/COURS_fonctions_lvl_1.md)
+ - [Les opérateurs - Niveau 2](../operateurs/COURS_operateurs_lvl_2.md)
  - [Les structures de contrôle - Niveau 1](../fonctions/COURS_structures_controle_lvl_1.md)
+ 

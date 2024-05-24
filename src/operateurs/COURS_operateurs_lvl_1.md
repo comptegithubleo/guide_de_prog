@@ -1,4 +1,4 @@
-# Opérateurs de base
+# Niveau 1 - Opérateurs de base
 ---
 *Pré-requis :* [Variables et types de données - Niveau 1](../datatypes/COURS_variables_lvl_1.md)
 
